@@ -1,4 +1,5 @@
 import { HashRouter as Router, Link, BrowserRouter, Routes, Route} from 'react-router'
+import "./assets/css/index.css"; // Ensure this is present in your entry file
 
 import Home from './pages/Home'
 import Food from './pages/Food'
