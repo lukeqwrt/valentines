@@ -7,6 +7,8 @@
   /* color */
   --color-primary: #000;
   --color-secondary: #fff;
+  --sm: 640px;
+  --md: 758px;
 }
 
 .emoji-animation{
@@ -36,3 +38,4 @@
       opacity: 0;
   }
 }
+
