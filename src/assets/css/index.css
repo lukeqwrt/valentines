@@ -11,10 +11,6 @@
   --md: 758px;
 }
 
-html {
-  @apply font-poppins
-}
-
 
 .emoji-animation{
   visibility: hidden;
