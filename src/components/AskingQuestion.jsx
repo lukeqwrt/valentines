@@ -65,10 +65,6 @@ const AskingQuestion = () => {
                             {item.answer}
                     </button>
                 ))}
-
-                <div class="bg-primary text-secondary p-8 sm:p-0">
-  Tailwind CSS Test
-</div>
             </div>
         </div>
     );
