@@ -7,55 +7,55 @@ const FoodChoice = () => {
     const [images,setImages] = useState([
         { 
             isImage: true, 
-            imageUrl: '/src/assets/img/pexels-anna-guerrero-788383-10802307.jpg',
+            imageUrl: `${import.meta.env.BASE_URL}/img/pexels-anna-guerrero-788383-10802307.jpg`,
             food:'Pasta',
             liked: false
         },
         {
             isImage: true,
-            imageUrl: '/src/assets/img/pexels-babydov-7788311.jpg',
+            imageUrl: `${import.meta.env.BASE_URL}/img/pexels-babydov-7788311.jpg`,
             food:'Korean Chicken',
             liked: false
         },
         {
             isImage: true,
-            imageUrl: '/src/assets/img/pexels-markusspiske-109395.jpg',
+            imageUrl: `${import.meta.env.BASE_URL}/img/pexels-markusspiske-109395.jpg`,
             food:'Steak',
             liked: false
         },
         {
             isImage: true,
-            imageUrl: '/src/assets/img/pexels-mikegles-13015753.jpg',
+            imageUrl: `${import.meta.env.BASE_URL}/img/pexels-mikegles-13015753.jpg`,
             food:'Ramen',
             liked: false
         },
         {
             isImage: true,
-            imageUrl: '/src/assets/img/pexels-sydney-troxell-223521-708587.jpg',
+            imageUrl: `${import.meta.env.BASE_URL}/img/pexels-sydney-troxell-223521-708587.jpg`,
             food:'Pizza',
             liked: false
         },
         {
             isImage: true,
-            imageUrl: '/src/assets/img/pexels-valeriya-1639562.jpg',
+            imageUrl: `${import.meta.env.BASE_URL}/img/pexels-valeriya-1639562.jpg`,
             food:'Burger',
             liked: false
         },
         {
             isImage: true,
-            imageUrl: '/src/assets/img/pexels-rdne-5779423.jpg',
+            imageUrl: `${import.meta.env.BASE_URL}/img/pexels-rdne-5779423.jpg`,
             food:'Shawarma',
             liked: false
         },
         {
             isImage: true,
-            imageUrl: '/src/assets/img/pexels-mateusz-dach-99805-1275692.jpg',
+            imageUrl: `${import.meta.env.BASE_URL}/img/pexels-mateusz-dach-99805-1275692.jpg`,
             food:'Sausage',
             liked: false
         },
         {
             isImage: true,
-            imageUrl: '/src/assets/img/pexels-dana-tentis-118658-1213710.jpg',
+            imageUrl: `${import.meta.env.BASE_URL}/img/pexels-dana-tentis-118658-1213710.jpg`,
             food:'Salad',
             liked: false
         },

@@ -1,4 +1,5 @@
-import { Link, BrowserRouter, Routes, Route} from 'react-router'
+import { HashRouter as Router, Link, BrowserRouter, Routes, Route} from 'react-router'
+
 import Home from './pages/Home'
 import Food from './pages/Food'
 import { useState } from 'react'
@@ -7,7 +8,7 @@ function App() {
   return (
     <GlobalProvider>
       <div className="app">
-        <BrowserRouter>
+        <Router>
           <Routes>
             <Route 
               exact
@@ -23,7 +24,7 @@ function App() {
               } 
             />
           </Routes>
-        </BrowserRouter>
+        </Router>
       </div>
     </GlobalProvider>
   )

@@ -52,7 +52,7 @@ const AskingQuestion = () => {
 
     return (
         <div className="ask flex flex-col justify-center items-center gap-8">
-            <img className="h-auto w-full rounded-lg" src="/src/assets/img/photo-us.jpeg" alt="tst" />
+            <img className="h-auto w-full rounded-lg" src={`${import.meta.env.BASE_URL}/img/photo-us.jpeg`} alt="Picture" />
             <div className="button-wrapper flex gap-5">
                 {answers.map((item, index) => (
                     <button     
