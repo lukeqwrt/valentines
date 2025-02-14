@@ -59,7 +59,6 @@ const AskingQuestion = () => {
                         key={index}
                         onClick={() => clickedEmoji(index)}
                         className="cursor-pointer grid gap-2 items-center justify-center relative">
-                            <span className={`absolute top-0 left-[50%] translate-[-50%] emoji-animation ${item.clicked ? 'active' : ''}`}>item.emoji</span>
                             <span className="bg-gray-300 text-3xl flex justify-center items-center h-[80px] w-[80px] rounded-full">
                                 {item.emoji}
                             </span>

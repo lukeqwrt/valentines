@@ -17,7 +17,7 @@ const Home = () => {
                   <div className="left max-sm:min-h-[58vh] max-sm:flex max-sm:justify-center max-sm:items-center max-sm:flex-col">
                     <h3 className="font-playwrite text-5xl w-full max-w-[400px] leading-[90px] max-lg:text-3xl max-lg:leading-normal max-sm:text-center max-sm:leading-[60px]">Will you be my Valentine?</h3>
                     <div className="date text-xl mt-5">
-                      Friday, Feb 14
+                      Friday, Feb 15
                     </div>
                     <div className="time text-lg text-gray-500">
                       9:00 AM
