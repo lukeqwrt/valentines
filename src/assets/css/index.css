@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  /* font */
+  --font-poppins: Poppins, sans-serif;
+  --font-playwrite: "Playwrite IN", serif;
+  /* color */
+  --color-primary: #000;
+  --color-secondary: #fff;
+}
+
+.emoji-animation{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.emoji-animation.active{
+  visibility: visible;
+  opacity: 1;
+
+}
+.sad-emoji {
+  position: fixed;
+  font-size: 2rem;
+  opacity: 0.8;
+  animation: fall 2s linear forwards;
+}
+
+@keyframes fall {
+  from {
+      transform: translateY(0);
+  }
+  to {
+      transform: translateY(100vh);
+      opacity: 0;
+  }
+}
