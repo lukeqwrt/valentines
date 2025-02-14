@@ -13,7 +13,7 @@ const Home = () => {
 
     return (
         <div className="main min-h-screen flex justify-center items-center bg-slate-200 max-md:px-3 max-sm:pb-5">
-                <div className="parent-home w-full max-w-[1140px] gap-x-5 grid grid-cols-2 max-sm:grid-cols-1 max-sm:gap-y-5">
+                <div className="parent-home w-full max-w-[1140px] gap-x-5 grid grid-cols-2 @max-sm:grid-cols-1 @max-sm:gap-y-5">
                   <div className="left max-sm:min-h-[58vh] max-sm:flex max-sm:justify-center max-sm:items-center max-sm:flex-col">
                     <h3 className="font-playwrite text-5xl w-full max-w-[400px] leading-[90px] max-lg:text-3xl max-lg:leading-normal max-sm:text-center max-sm:leading-[60px]">Will you be my Valentine?</h3>
                     <div className="date text-xl mt-5">

@@ -213,7 +213,7 @@ const FoodChoice = () => {
             </div> */}
                 
 
-            <div className="image-container grid grid-cols-3 mt-5 max-md:grid-cols-2">
+            <div className="image-container grid grid-cols-3 mt-5 @max-md:grid-cols-2">
                 {images.map((img, index) => (
                     <div 
                         onClick={() => handleFoodClicked({foodChoice: img.food, id: index})}
